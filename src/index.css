@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  scroll-padding: 30px;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  flex-grow: 1;
+  height: 100%;
+  background-color: #f2f4f7;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerList {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  font-size: smaller;
+  color: gray;
+  flex-wrap: wrap;
+}
+
+.footerList>li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: black;
+}
