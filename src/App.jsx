@@ -1,12 +1,11 @@
 import React from 'react'
-import Main from './components/Main'
-import Footer from './components/Footer'
+ import FormUseFormik from './components/FormUseFormik'
+
 
 export default function App() {
     return (
         <React.Fragment>
-            <Main />
-            <Footer />
+            <FormUseFormik />
         </React.Fragment>
     )
 }
