@@ -1,11 +1,12 @@
 import React from 'react'
- import FormUseFormik from './components/FormUseFormik'
+import Posts from './components/Posts'
 
 
 export default function App() {
+
     return (
         <React.Fragment>
-            <FormUseFormik />
+            <Posts />
         </React.Fragment>
     )
 }
