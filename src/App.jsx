@@ -1,12 +1,12 @@
 import React from 'react'
-import Main from './components/Main'
-import Footer from './components/Footer'
+import Posts from './components/Posts'
+
 
 export default function App() {
+
     return (
         <React.Fragment>
-            <Main />
-            <Footer />
+            <Posts />
         </React.Fragment>
     )
 }

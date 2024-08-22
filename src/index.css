@@ -5,7 +5,7 @@ body {
   scroll-padding: 30px;
 }
 
-#root {
+/* #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,4 +38,4 @@ main {
   cursor: pointer;
   text-decoration: underline;
   color: black;
-}
+} */
