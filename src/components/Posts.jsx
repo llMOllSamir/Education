@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Post from './Post'
-
+import axios from 'axios'
 export default function Posts() {
     const [posts, setPosts] = useState([])
 
@@ -8,8 +8,7 @@ export default function Posts() {
     useEffect(() => {
         const fetchData = async () => {
             const fetchUrl = `https://jsonplaceholder.typicode.com/posts`
-            const response = await fetch(fetchUrl)
-            const data = await response.json()
+            const { data } = await axios.get(fetchUrl)
             setPosts(data)
         }
         fetchData()
